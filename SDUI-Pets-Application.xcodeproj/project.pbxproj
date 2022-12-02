@@ -14,6 +14,10 @@
 		F91BABF0293A52ED003E2C76 /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91BABEF293A52ED003E2C76 /* Webservice.swift */; };
 		F91BABF3293A539D003E2C76 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91BABF2293A539D003E2C76 /* Utils.swift */; };
 		F91BABF6293A5FE4003E2C76 /* ScreenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91BABF5293A5FE4003E2C76 /* ScreenModel.swift */; };
+		F91BABF9293A615B003E2C76 /* UIComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91BABF8293A615B003E2C76 /* UIComponent.swift */; };
+		F91BABFB293A61B0003E2C76 /* FeaturedImageComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91BABFA293A61B0003E2C76 /* FeaturedImageComponent.swift */; };
+		F91BABFD293A62AE003E2C76 /* FeaturedImageUIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91BABFC293A62AE003E2C76 /* FeaturedImageUIModel.swift */; };
+		F91BAC00293A6361003E2C76 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91BABFF293A6361003E2C76 /* View+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +29,10 @@
 		F91BABEF293A52ED003E2C76 /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
 		F91BABF2293A539D003E2C76 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		F91BABF5293A5FE4003E2C76 /* ScreenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenModel.swift; sourceTree = "<group>"; };
+		F91BABF8293A615B003E2C76 /* UIComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIComponent.swift; sourceTree = "<group>"; };
+		F91BABFA293A61B0003E2C76 /* FeaturedImageComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedImageComponent.swift; sourceTree = "<group>"; };
+		F91BABFC293A62AE003E2C76 /* FeaturedImageUIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedImageUIModel.swift; sourceTree = "<group>"; };
+		F91BABFF293A6361003E2C76 /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +65,8 @@
 		F91BABDF293A5187003E2C76 /* SDUI-Pets-Application */ = {
 			isa = PBXGroup;
 			children = (
+				F91BABFE293A6353003E2C76 /* Extension */,
+				F91BABF7293A6152003E2C76 /* Components */,
 				F91BABF4293A5828003E2C76 /* UIModels */,
 				F91BABF1293A5392003E2C76 /* Utils */,
 				F91BABEE293A52E5003E2C76 /* Services */,
@@ -96,8 +106,26 @@
 			isa = PBXGroup;
 			children = (
 				F91BABF5293A5FE4003E2C76 /* ScreenModel.swift */,
+				F91BABFC293A62AE003E2C76 /* FeaturedImageUIModel.swift */,
 			);
 			path = UIModels;
+			sourceTree = "<group>";
+		};
+		F91BABF7293A6152003E2C76 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				F91BABF8293A615B003E2C76 /* UIComponent.swift */,
+				F91BABFA293A61B0003E2C76 /* FeaturedImageComponent.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		F91BABFE293A6353003E2C76 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F91BABFF293A6361003E2C76 /* View+Extensions.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,10 +199,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				F91BABE3293A5187003E2C76 /* ContentView.swift in Sources */,
+				F91BAC00293A6361003E2C76 /* View+Extensions.swift in Sources */,
+				F91BABF9293A615B003E2C76 /* UIComponent.swift in Sources */,
 				F91BABF6293A5FE4003E2C76 /* ScreenModel.swift in Sources */,
 				F91BABE1293A5187003E2C76 /* SDUI_Pets_ApplicationApp.swift in Sources */,
+				F91BABFB293A61B0003E2C76 /* FeaturedImageComponent.swift in Sources */,
 				F91BABF0293A52ED003E2C76 /* Webservice.swift in Sources */,
 				F91BABF3293A539D003E2C76 /* Utils.swift in Sources */,
+				F91BABFD293A62AE003E2C76 /* FeaturedImageUIModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
