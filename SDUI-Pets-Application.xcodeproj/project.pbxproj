@@ -18,6 +18,8 @@
 		F91BABFB293A61B0003E2C76 /* FeaturedImageComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91BABFA293A61B0003E2C76 /* FeaturedImageComponent.swift */; };
 		F91BABFD293A62AE003E2C76 /* FeaturedImageUIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91BABFC293A62AE003E2C76 /* FeaturedImageUIModel.swift */; };
 		F91BAC00293A6361003E2C76 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91BABFF293A6361003E2C76 /* View+Extensions.swift */; };
+		F91BAC03293A6563003E2C76 /* PetListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91BAC02293A6563003E2C76 /* PetListViewModel.swift */; };
+		F91BAC05293B44DC003E2C76 /* Dictionary+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91BAC04293B44DB003E2C76 /* Dictionary+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,8 @@
 		F91BABFA293A61B0003E2C76 /* FeaturedImageComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedImageComponent.swift; sourceTree = "<group>"; };
 		F91BABFC293A62AE003E2C76 /* FeaturedImageUIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedImageUIModel.swift; sourceTree = "<group>"; };
 		F91BABFF293A6361003E2C76 /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		F91BAC02293A6563003E2C76 /* PetListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetListViewModel.swift; sourceTree = "<group>"; };
+		F91BAC04293B44DB003E2C76 /* Dictionary+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +69,8 @@
 		F91BABDF293A5187003E2C76 /* SDUI-Pets-Application */ = {
 			isa = PBXGroup;
 			children = (
-				F91BABFE293A6353003E2C76 /* Extension */,
+				F91BAC01293A6547003E2C76 /* ViewModels */,
+				F91BABFE293A6353003E2C76 /* Extensions */,
 				F91BABF7293A6152003E2C76 /* Components */,
 				F91BABF4293A5828003E2C76 /* UIModels */,
 				F91BABF1293A5392003E2C76 /* Utils */,
@@ -120,12 +125,21 @@
 			path = Components;
 			sourceTree = "<group>";
 		};
-		F91BABFE293A6353003E2C76 /* Extension */ = {
+		F91BABFE293A6353003E2C76 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
 				F91BABFF293A6361003E2C76 /* View+Extensions.swift */,
+				F91BAC04293B44DB003E2C76 /* Dictionary+Extensions.swift */,
 			);
-			path = Extension;
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F91BAC01293A6547003E2C76 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F91BAC02293A6563003E2C76 /* PetListViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,11 +216,13 @@
 				F91BAC00293A6361003E2C76 /* View+Extensions.swift in Sources */,
 				F91BABF9293A615B003E2C76 /* UIComponent.swift in Sources */,
 				F91BABF6293A5FE4003E2C76 /* ScreenModel.swift in Sources */,
+				F91BAC03293A6563003E2C76 /* PetListViewModel.swift in Sources */,
 				F91BABE1293A5187003E2C76 /* SDUI_Pets_ApplicationApp.swift in Sources */,
 				F91BABFB293A61B0003E2C76 /* FeaturedImageComponent.swift in Sources */,
 				F91BABF0293A52ED003E2C76 /* Webservice.swift in Sources */,
 				F91BABF3293A539D003E2C76 /* Utils.swift in Sources */,
 				F91BABFD293A62AE003E2C76 /* FeaturedImageUIModel.swift in Sources */,
+				F91BAC05293B44DC003E2C76 /* Dictionary+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
