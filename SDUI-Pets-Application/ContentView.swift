@@ -8,14 +8,22 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @StateObject private var viewModel = PetListViewModel(service: Webservice())
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationView {
+            ScrollView {
+                ForEach(viewModel.components, id: \.id) { component in
+                    component
+                        .render()
+                }
+            }
+            .navigationTitle("Pets")
         }
-        .padding()
+        .task {
+            await viewModel.load()
+        }
     }
 }
 

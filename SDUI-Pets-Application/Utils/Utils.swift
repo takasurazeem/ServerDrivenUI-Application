@@ -10,6 +10,6 @@ import Foundation
 enum Constants {
     enum Resource {
         private static let baseUrl = "http://localhost:3000"
-        static let petListing = "\(baseUrl)pet-listing"
+        static let petListing = "\(baseUrl)/pet-listing"
     }
 }
