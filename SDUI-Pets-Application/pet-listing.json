@@ -1,0 +1,11 @@
+{
+    "pageTitle": "Pets",
+    "components": [
+        {
+            "type": "featuredImage",
+            "data": {
+                "imageUrl": "https://images.unsplash.com/photo-1571988840298-3b5301d5109b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8M3x8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=60"
+            }
+        }
+    ]
+}
