@@ -23,6 +23,7 @@
 		F91BAC07293B7CB6003E2C76 /* pet-listing.json in Resources */ = {isa = PBXBuildFile; fileRef = F91BAC06293B7CB6003E2C76 /* pet-listing.json */; };
 		F91BAC09293B7D58003E2C76 /* MockService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91BAC08293B7D58003E2C76 /* MockService.swift */; };
 		F91BAC0B293B7DD8003E2C76 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91BAC0A293B7DD8003E2C76 /* NetworkService.swift */; };
+		F91BAC0E293C9A20003E2C76 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91BAC0D293C9A20003E2C76 /* JSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,8 @@
 		F91BAC06293B7CB6003E2C76 /* pet-listing.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "pet-listing.json"; sourceTree = "<group>"; };
 		F91BAC08293B7D58003E2C76 /* MockService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockService.swift; sourceTree = "<group>"; };
 		F91BAC0A293B7DD8003E2C76 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		F91BAC0C293BB0AD003E2C76 /* SDUIPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SDUIPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F91BAC0D293C9A20003E2C76 /* JSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +62,7 @@
 		F91BABD4293A5187003E2C76 = {
 			isa = PBXGroup;
 			children = (
+				F91BAC0C293BB0AD003E2C76 /* SDUIPlayground.playground */,
 				F91BABDF293A5187003E2C76 /* SDUI-Pets-Application */,
 				F91BABDE293A5187003E2C76 /* Products */,
 			);
@@ -121,6 +125,7 @@
 			children = (
 				F91BABF5293A5FE4003E2C76 /* ScreenModel.swift */,
 				F91BABFC293A62AE003E2C76 /* FeaturedImageUIModel.swift */,
+				F91BAC0D293C9A20003E2C76 /* JSON.swift */,
 			);
 			path = UIModels;
 			sourceTree = "<group>";
@@ -223,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F91BABE3293A5187003E2C76 /* ContentView.swift in Sources */,
+				F91BAC0E293C9A20003E2C76 /* JSON.swift in Sources */,
 				F91BAC00293A6361003E2C76 /* View+Extensions.swift in Sources */,
 				F91BABF9293A615B003E2C76 /* UIComponent.swift in Sources */,
 				F91BABF6293A5FE4003E2C76 /* ScreenModel.swift in Sources */,
