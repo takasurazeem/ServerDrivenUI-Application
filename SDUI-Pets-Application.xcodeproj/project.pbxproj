@@ -28,6 +28,7 @@
 		F91BAC12293C9D2C003E2C76 /* CarouselComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91BAC11293C9D2C003E2C76 /* CarouselComponent.swift */; };
 		F91BAC15293C9D9D003E2C76 /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91BAC14293C9D9D003E2C76 /* CarouselView.swift */; };
 		F91BAC17293C9DDA003E2C76 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91BAC16293C9DDA003E2C76 /* String+Extensions.swift */; };
+		F91BAC19293CA36D003E2C76 /* CachedAsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91BAC18293CA36D003E2C76 /* CachedAsyncImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		F91BAC11293C9D2C003E2C76 /* CarouselComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselComponent.swift; sourceTree = "<group>"; };
 		F91BAC14293C9D9D003E2C76 /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
 		F91BAC16293C9DDA003E2C76 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		F91BAC18293CA36D003E2C76 /* CachedAsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CachedAsyncImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				F91BABF2293A539D003E2C76 /* Utils.swift */,
+				F91BAC18293CA36D003E2C76 /* CachedAsyncImage.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -255,6 +258,7 @@
 				F91BABF9293A615B003E2C76 /* UIComponent.swift in Sources */,
 				F91BABF6293A5FE4003E2C76 /* ScreenModel.swift in Sources */,
 				F91BAC03293A6563003E2C76 /* PetListViewModel.swift in Sources */,
+				F91BAC19293CA36D003E2C76 /* CachedAsyncImage.swift in Sources */,
 				F91BAC15293C9D9D003E2C76 /* CarouselView.swift in Sources */,
 				F91BABE1293A5187003E2C76 /* SDUI_Pets_ApplicationApp.swift in Sources */,
 				F91BABFB293A61B0003E2C76 /* FeaturedImageComponent.swift in Sources */,

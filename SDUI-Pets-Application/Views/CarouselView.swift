@@ -17,7 +17,7 @@ struct CarouselView: View {
         ScrollView(.horizontal, showsIndicators: false) {
             HStack {
                 ForEach(uiModel.imageUrls, id: \.self) { url in
-                    AsyncImage(url: url) { image in
+                    CachedAsyncImage(url: url) { image in
                         image
                             .resizable()
                             .frame(width: 200, height: 200)
