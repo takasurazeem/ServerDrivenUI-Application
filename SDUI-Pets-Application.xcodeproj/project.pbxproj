@@ -31,6 +31,7 @@
 		F91BAC19293CA36D003E2C76 /* CachedAsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91BAC18293CA36D003E2C76 /* CachedAsyncImage.swift */; };
 		F91BAC1C293CAD48003E2C76 /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91BAC1B293CAD48003E2C76 /* Action.swift */; };
 		F91BAC1F293CADA5003E2C76 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91BAC1E293CADA5003E2C76 /* Route.swift */; };
+		F91BAC21293CAE27003E2C76 /* Navigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91BAC20293CAE27003E2C76 /* Navigator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +61,7 @@
 		F91BAC18293CA36D003E2C76 /* CachedAsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CachedAsyncImage.swift; sourceTree = "<group>"; };
 		F91BAC1B293CAD48003E2C76 /* Action.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Action.swift; sourceTree = "<group>"; };
 		F91BAC1E293CADA5003E2C76 /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
+		F91BAC20293CAE27003E2C76 /* Navigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -197,6 +199,7 @@
 			isa = PBXGroup;
 			children = (
 				F91BAC1E293CADA5003E2C76 /* Route.swift */,
+				F91BAC20293CAE27003E2C76 /* Navigator.swift */,
 			);
 			path = Navigation;
 			sourceTree = "<group>";
@@ -277,6 +280,7 @@
 				F91BAC00293A6361003E2C76 /* View+Extensions.swift in Sources */,
 				F91BAC12293C9D2C003E2C76 /* CarouselComponent.swift in Sources */,
 				F91BAC17293C9DDA003E2C76 /* String+Extensions.swift in Sources */,
+				F91BAC21293CAE27003E2C76 /* Navigator.swift in Sources */,
 				F91BABF9293A615B003E2C76 /* UIComponent.swift in Sources */,
 				F91BABF6293A5FE4003E2C76 /* ScreenModel.swift in Sources */,
 				F91BAC03293A6563003E2C76 /* PetListViewModel.swift in Sources */,
