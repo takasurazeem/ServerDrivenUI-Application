@@ -7,6 +7,6 @@
 
 import Foundation
 
-enum Route: Decodable {
+enum Route: String, Decodable {
     case petDetail
 }

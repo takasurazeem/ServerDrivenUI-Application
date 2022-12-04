@@ -24,12 +24,24 @@ struct SheetView<V: View>: View {
 }
 
 class Navigator {
-    static func perform<V: View>(action: Action, content: @escaping () -> V) -> AnyView {
+    static func perform<V: View>(action: Action, payload: Any? = nil, content: @escaping () -> V) -> AnyView {
         var destinationView: AnyView!
         
         switch action.destination {
         case .petDetail :
-            destinationView = Text("Pet Detail").toAnyView()
+            if let payload = payload as? URL {
+                destinationView = CachedAsyncImage(url: payload) { image in
+                    image
+                        .resizable()
+                        .scaledToFit()
+                } placeholder: {
+                    ProgressView()
+                }
+                .toAnyView()
+            } else {
+                destinationView =  EmptyView()
+                    .toAnyView()
+            }
         }
         
         switch action.type {

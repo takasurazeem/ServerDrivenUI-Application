@@ -19,7 +19,7 @@
                 ],
                 "action": {
                     "type": "sheet",
-                    "destinationView": "petDetail"
+                    "destination": "petDetail"
                 }
             }
         }
