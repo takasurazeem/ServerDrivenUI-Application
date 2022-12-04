@@ -29,6 +29,8 @@
 		F91BAC15293C9D9D003E2C76 /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91BAC14293C9D9D003E2C76 /* CarouselView.swift */; };
 		F91BAC17293C9DDA003E2C76 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91BAC16293C9DDA003E2C76 /* String+Extensions.swift */; };
 		F91BAC19293CA36D003E2C76 /* CachedAsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91BAC18293CA36D003E2C76 /* CachedAsyncImage.swift */; };
+		F91BAC1C293CAD48003E2C76 /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91BAC1B293CAD48003E2C76 /* Action.swift */; };
+		F91BAC1F293CADA5003E2C76 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91BAC1E293CADA5003E2C76 /* Route.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +58,8 @@
 		F91BAC14293C9D9D003E2C76 /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
 		F91BAC16293C9DDA003E2C76 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
 		F91BAC18293CA36D003E2C76 /* CachedAsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CachedAsyncImage.swift; sourceTree = "<group>"; };
+		F91BAC1B293CAD48003E2C76 /* Action.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Action.swift; sourceTree = "<group>"; };
+		F91BAC1E293CADA5003E2C76 /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +93,8 @@
 		F91BABDF293A5187003E2C76 /* SDUI-Pets-Application */ = {
 			isa = PBXGroup;
 			children = (
+				F91BAC1D293CAD96003E2C76 /* Navigation */,
+				F91BAC1A293CAC1F003E2C76 /* Actions */,
 				F91BAC13293C9D94003E2C76 /* Views */,
 				F91BAC01293A6547003E2C76 /* ViewModels */,
 				F91BABFE293A6353003E2C76 /* Extensions */,
@@ -179,6 +185,22 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		F91BAC1A293CAC1F003E2C76 /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+				F91BAC1B293CAD48003E2C76 /* Action.swift */,
+			);
+			path = Actions;
+			sourceTree = "<group>";
+		};
+		F91BAC1D293CAD96003E2C76 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				F91BAC1E293CADA5003E2C76 /* Route.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -262,7 +284,9 @@
 				F91BAC15293C9D9D003E2C76 /* CarouselView.swift in Sources */,
 				F91BABE1293A5187003E2C76 /* SDUI_Pets_ApplicationApp.swift in Sources */,
 				F91BABFB293A61B0003E2C76 /* FeaturedImageComponent.swift in Sources */,
+				F91BAC1F293CADA5003E2C76 /* Route.swift in Sources */,
 				F91BABF0293A52ED003E2C76 /* Webservice.swift in Sources */,
+				F91BAC1C293CAD48003E2C76 /* Action.swift in Sources */,
 				F91BAC10293C9D04003E2C76 /* CarouselUIModel.swift in Sources */,
 				F91BABF3293A539D003E2C76 /* Utils.swift in Sources */,
 				F91BABFD293A62AE003E2C76 /* FeaturedImageUIModel.swift in Sources */,
