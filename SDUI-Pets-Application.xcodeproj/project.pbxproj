@@ -14,6 +14,9 @@
 		F90EF136293E4AE5007C45FD /* RatingRowUIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90EF135293E4AE5007C45FD /* RatingRowUIModel.swift */; };
 		F90EF138293E4B0F007C45FD /* RatingRowComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90EF137293E4B0F007C45FD /* RatingRowComponent.swift */; };
 		F90EF13A293E4C6D007C45FD /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90EF139293E4C6D007C45FD /* RatingView.swift */; };
+		F90EF13C293E4F67007C45FD /* ListUIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90EF13B293E4F67007C45FD /* ListUIModel.swift */; };
+		F90EF13E293E508D007C45FD /* ListComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90EF13D293E508D007C45FD /* ListComponent.swift */; };
+		F90EF140293E51EA007C45FD /* RowComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90EF13F293E51EA007C45FD /* RowComponent.swift */; };
 		F91BABE1293A5187003E2C76 /* SDUI_Pets_ApplicationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91BABE0293A5187003E2C76 /* SDUI_Pets_ApplicationApp.swift */; };
 		F91BABE3293A5187003E2C76 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91BABE2293A5187003E2C76 /* ContentView.swift */; };
 		F91BABE5293A5188003E2C76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F91BABE4293A5188003E2C76 /* Assets.xcassets */; };
@@ -49,6 +52,9 @@
 		F90EF135293E4AE5007C45FD /* RatingRowUIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingRowUIModel.swift; sourceTree = "<group>"; };
 		F90EF137293E4B0F007C45FD /* RatingRowComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingRowComponent.swift; sourceTree = "<group>"; };
 		F90EF139293E4C6D007C45FD /* RatingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		F90EF13B293E4F67007C45FD /* ListUIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListUIModel.swift; sourceTree = "<group>"; };
+		F90EF13D293E508D007C45FD /* ListComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListComponent.swift; sourceTree = "<group>"; };
+		F90EF13F293E51EA007C45FD /* RowComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowComponent.swift; sourceTree = "<group>"; };
 		F91BABDD293A5187003E2C76 /* SDUI-Pets-Application.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SDUI-Pets-Application.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F91BABE0293A5187003E2C76 /* SDUI_Pets_ApplicationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDUI_Pets_ApplicationApp.swift; sourceTree = "<group>"; };
 		F91BABE2293A5187003E2C76 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -181,6 +187,7 @@
 				F91BAC0D293C9A20003E2C76 /* JSON.swift */,
 				F90EF131293E4863007C45FD /* TextRowUIModel.swift */,
 				F90EF135293E4AE5007C45FD /* RatingRowUIModel.swift */,
+				F90EF13B293E4F67007C45FD /* ListUIModel.swift */,
 			);
 			path = UIModels;
 			sourceTree = "<group>";
@@ -193,6 +200,8 @@
 				F91BAC11293C9D2C003E2C76 /* CarouselComponent.swift */,
 				F90EF133293E489A007C45FD /* TextRowComponent.swift */,
 				F90EF137293E4B0F007C45FD /* RatingRowComponent.swift */,
+				F90EF13D293E508D007C45FD /* ListComponent.swift */,
+				F90EF13F293E51EA007C45FD /* RowComponent.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -321,6 +330,7 @@
 				F91BAC17293C9DDA003E2C76 /* String+Extensions.swift in Sources */,
 				F91BAC21293CAE27003E2C76 /* Navigator.swift in Sources */,
 				F91BABF9293A615B003E2C76 /* UIComponent.swift in Sources */,
+				F90EF13C293E4F67007C45FD /* ListUIModel.swift in Sources */,
 				F91BABF6293A5FE4003E2C76 /* ScreenModel.swift in Sources */,
 				F91BAC03293A6563003E2C76 /* PetListViewModel.swift in Sources */,
 				F90EF138293E4B0F007C45FD /* RatingRowComponent.swift in Sources */,
@@ -335,6 +345,8 @@
 				F90EF134293E489A007C45FD /* TextRowComponent.swift in Sources */,
 				F91BAC10293C9D04003E2C76 /* CarouselUIModel.swift in Sources */,
 				F90EF12D293E432B007C45FD /* PetDetailScreen.swift in Sources */,
+				F90EF140293E51EA007C45FD /* RowComponent.swift in Sources */,
+				F90EF13E293E508D007C45FD /* ListComponent.swift in Sources */,
 				F91BABF3293A539D003E2C76 /* Utils.swift in Sources */,
 				F90EF130293E44D3007C45FD /* PetDetailViewModel.swift in Sources */,
 				F91BABFD293A62AE003E2C76 /* FeaturedImageUIModel.swift in Sources */,

@@ -44,7 +44,10 @@ class Navigator {
             }, destinationView: destinationView)
             .toAnyView()
         case .push:
-            fatalError("Not implemented yet")
+            return NavigationLink(destination: destinationView) {
+                content()
+            }
+            .toAnyView()
         }
     }
 }
