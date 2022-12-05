@@ -15,7 +15,5 @@ struct CarouselComponent: UIComponent {
     }
     
     let uiModel: CarouselUIModel
-    var id: String {
-        ComponentType.carousel.rawValue
-    }
+    let id = UUID()
 }

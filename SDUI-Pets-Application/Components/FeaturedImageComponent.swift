@@ -9,12 +9,6 @@ import SwiftUI
 
 struct FeaturedImageComponent: UIComponent {
     
-    let uiModel: FeaturedImageUIModel
-    
-    var id: String {
-        ComponentType.featuredImage.rawValue
-    }
-    
     func render() -> AnyView {
         CachedAsyncImage(url: uiModel.imageUrl) { image in
             image
@@ -25,4 +19,7 @@ struct FeaturedImageComponent: UIComponent {
         }
         .toAnyView()
     }
+    
+    let uiModel: FeaturedImageUIModel
+    let id = UUID()
 }
