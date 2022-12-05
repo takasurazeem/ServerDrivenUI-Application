@@ -17,6 +17,7 @@
 		F90EF13C293E4F67007C45FD /* ListUIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90EF13B293E4F67007C45FD /* ListUIModel.swift */; };
 		F90EF13E293E508D007C45FD /* ListComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90EF13D293E508D007C45FD /* ListComponent.swift */; };
 		F90EF140293E51EA007C45FD /* RowComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90EF13F293E51EA007C45FD /* RowComponent.swift */; };
+		F90EF142293E5AAD007C45FD /* EmptyComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90EF141293E5AAD007C45FD /* EmptyComponent.swift */; };
 		F91BABE1293A5187003E2C76 /* SDUI_Pets_ApplicationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91BABE0293A5187003E2C76 /* SDUI_Pets_ApplicationApp.swift */; };
 		F91BABE3293A5187003E2C76 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91BABE2293A5187003E2C76 /* ContentView.swift */; };
 		F91BABE5293A5188003E2C76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F91BABE4293A5188003E2C76 /* Assets.xcassets */; };
@@ -55,6 +56,7 @@
 		F90EF13B293E4F67007C45FD /* ListUIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListUIModel.swift; sourceTree = "<group>"; };
 		F90EF13D293E508D007C45FD /* ListComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListComponent.swift; sourceTree = "<group>"; };
 		F90EF13F293E51EA007C45FD /* RowComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowComponent.swift; sourceTree = "<group>"; };
+		F90EF141293E5AAD007C45FD /* EmptyComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyComponent.swift; sourceTree = "<group>"; };
 		F91BABDD293A5187003E2C76 /* SDUI-Pets-Application.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SDUI-Pets-Application.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F91BABE0293A5187003E2C76 /* SDUI_Pets_ApplicationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDUI_Pets_ApplicationApp.swift; sourceTree = "<group>"; };
 		F91BABE2293A5187003E2C76 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -202,6 +204,7 @@
 				F90EF137293E4B0F007C45FD /* RatingRowComponent.swift */,
 				F90EF13D293E508D007C45FD /* ListComponent.swift */,
 				F90EF13F293E51EA007C45FD /* RowComponent.swift */,
+				F90EF141293E5AAD007C45FD /* EmptyComponent.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -339,6 +342,7 @@
 				F91BAC15293C9D9D003E2C76 /* CarouselView.swift in Sources */,
 				F91BABE1293A5187003E2C76 /* SDUI_Pets_ApplicationApp.swift in Sources */,
 				F91BABFB293A61B0003E2C76 /* FeaturedImageComponent.swift in Sources */,
+				F90EF142293E5AAD007C45FD /* EmptyComponent.swift in Sources */,
 				F91BAC1F293CADA5003E2C76 /* Route.swift in Sources */,
 				F91BABF0293A52ED003E2C76 /* Webservice.swift in Sources */,
 				F91BAC1C293CAD48003E2C76 /* Action.swift in Sources */,

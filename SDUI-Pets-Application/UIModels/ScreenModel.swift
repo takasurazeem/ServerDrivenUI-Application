@@ -22,11 +22,11 @@ enum ComponentType: String, Decodable {
 struct ComponentModel: Decodable {
     init(from decoder: Decoder) throws {
         let container = try decoder.container(keyedBy: CodingKeys.self)
-        self.type = try container.decode(ComponentType.self, forKey: .type)
+        self.type = try? container.decode(ComponentType.self, forKey: .type)
         self.data = try container.decode(JSON.self, forKey: .data).value as! [String: Any]
     }
     
-    let type: ComponentType
+    let type: ComponentType?
     let data: [String: Any]
     
     private enum CodingKeys: CodingKey {
@@ -71,6 +71,8 @@ extension ScreenModel {
             case .list:
                 guard let uiModel: ListUIModel = component.data.decode() else { throw DecodingError.dataCorruptedError }
                 components.append(ListComponent(uiModel: uiModel))
+            case .none:
+                components.append(EmptyComponent())
             }
         }
         
