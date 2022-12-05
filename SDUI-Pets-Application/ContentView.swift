@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @StateObject private var viewModel = PetListViewModel(service: MockService())
+    @StateObject private var viewModel = PetListViewModel(service: Webservice())
     
     var body: some View {
         NavigationView {
