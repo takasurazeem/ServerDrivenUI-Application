@@ -29,15 +29,8 @@ class Navigator {
         
         switch action.destination {
         case .petDetail :
-            if let payload = payload as? URL {
-                destinationView = CachedAsyncImage(url: payload) { image in
-                    image
-                        .resizable()
-                        .scaledToFit()
-                } placeholder: {
-                    ProgressView()
-                }
-                .toAnyView()
+            if let payload = payload as? CarouselRowUIModel {
+                destinationView = Text("\(payload.petId)").toAnyView()
             } else {
                 destinationView =  EmptyView()
                     .toAnyView()
