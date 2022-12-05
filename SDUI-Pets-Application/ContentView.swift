@@ -12,7 +12,7 @@ struct ContentView: View {
     
     var body: some View {
         NavigationView {
-            ScrollView {
+            List {
                 ForEach(viewModel.components, id: \.id) { component in
                     component
                         .render()
@@ -20,6 +20,7 @@ struct ContentView: View {
             }
             .navigationTitle("Pets")
         }
+        .listStyle(.plain)
         .task {
             await viewModel.load()
         }

@@ -20,7 +20,6 @@ struct PetDetailScreen: View {
             ForEach(viewModel.components, id: \.id) { component in
                 component.render()
             }
-            .navigationTitle("Pets")
         }.task {
             await viewModel.load(petId: petId)
         }
