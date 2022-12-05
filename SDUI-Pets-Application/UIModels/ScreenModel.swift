@@ -14,6 +14,7 @@ enum ComponentError: Error {
 enum ComponentType: String, Decodable {
     case featuredImage
     case carousel
+    case textRow
 }
 
 struct ComponentModel: Decodable {
@@ -55,6 +56,11 @@ extension ScreenModel {
                     throw ComponentError.decodingError
                 }
                 components.append(CarouselComponent(uiModel: uiModel))
+            case .textRow:
+                guard let uiModel: TextRowUIModel = component.data.decode() else {
+                    throw DecodingError.dataCorruptedError
+                }
+                components.append(TextRowComponent(uiModel: uiModel))
             }
         }
         
